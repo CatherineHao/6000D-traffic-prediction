@@ -27,3 +27,9 @@ scipy~=1.9.3
 torch~=1.11.0+cu113
 tqdm~=4.61.2
 ```
+
+### Train & Test model:
+You can use jupyter to run the Train.ipynb to train and test my models and KNN models (sorry for directly download the codes from the cloud server but not organize it into .py file). For ST-GCN, you need to run the main() to train the model and see the evaluation results. The used data is organized in './data_used/'.
+
+### Expected Results:
+Our model adds the attention mechanism to achieve better prediction results than KNN, but now it performs not as well as ST-GCN. Through analysis, we think it may be due to the sparse geographical location of the bus data used.
