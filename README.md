@@ -17,9 +17,6 @@ STGCN_test.py (the main code of ST-GCN)
 Train.ipynb (train and test KNN; train and test our model)
 ```
 
-### Dataset source: 
-METR-LA: 
-
 ### Requirement:
 ```
 numpy~=1.22.4
