@@ -33,3 +33,6 @@ You can use jupyter to run the Train.ipynb to train and test my models and KNN m
 
 ### Expected Results:
 Our model adds the attention mechanism to achieve better prediction results than KNN, but now it performs not as well as ST-GCN. Through analysis, we think it may be due to the sparse geographical location of the bus data used.
+
+### URL:
+https://github.com/CatherineHao/6000D-traffic-prediction
