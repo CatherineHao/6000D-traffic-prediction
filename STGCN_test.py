@@ -813,4 +813,4 @@ train(loss, args, optimizer, scheduler, es, model, train_iter, val_iter)
 test(zscore, loss, model, test_iter, args)
 
 # Training configs: Namespace(Ks=3, Kt=3, act_func='glu', batch_size=32, dataset='metr-la', droprate=0.5, enable_bias=True, enable_cuda=True, epochs=10000, gamma=0.95, graph_conv_type='cheb_graph_conv', gso_type='sym_norm_lap', lr=0.001, n_his=12, n_pred=3, opt='adam', patience=30, seed=42, stblock_num=2, step_size=10, time_intvl=5, weight_decay_rate=0.0005)
-# Dataset metr-la | Test loss 0.268494 | MAE 4.439063 | RMSE 9.564646 | WMAPE 0.08738508
+# Dataset metr-la | Test loss 0.268494 | MAE 4.439063 | RMSE 9.564646 | MAPE 0.08738508
