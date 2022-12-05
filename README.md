@@ -32,7 +32,11 @@ tqdm~=4.61.2
 You can use jupyter to run the Train.ipynb to train and test my models and KNN models (sorry for directly download the codes from the cloud server but not organize it into .py file). For ST-GCN, you need to run the main() to train the model and see the evaluation results. The used data is organized in './data_used/'.
 
 ### Expected Results:
-Our model adds the attention mechanism to achieve better prediction results than KNN, but now it performs not as well as ST-GCN. Through analysis, we think it may be due to the sparse geographical location of the bus data used.
+Our model adds the attention mechanism to achieve better prediction results than KNN and FC-LSTM, but now it performs not as well as ST-GCN in ETR-LA dataset. Through analysis, we think it may be due to the sparse geographical location of the bus data used.
+![./table.png](./table.png "Experiment results.")
+![./re1.jpg](./re1.jpg "Experiment results.")
+![./re2.jpg](./re2.jpg "Experiment results.")
+![./re3.jpg](./re3.jpg "Experiment results.")
 
 ### URL:
 https://github.com/CatherineHao/6000D-traffic-prediction
